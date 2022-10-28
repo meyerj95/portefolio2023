@@ -3,6 +3,7 @@ body
 {
 	background-color: grey;
 	text-align: center;
+	color: yellow;
 }
 
 .h1orga
@@ -79,4 +80,43 @@ body
 	margin-bottom: 10px;
 	border-radius: 25px;
 	padding: 15px 32px;	
+}
+
+.title1
+{
+	color: yellow;
+	font-size: 2em;
+	margin-bottom: 20ox;
+}
+
+label
+{
+	color: yellow; 
+}
+
+table
+{
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	margin-right:auto ;
+}
+
+.b3
+{
+	width: 100px;
+	border: 2px solid black;
+	border-radius: 26px;
+	background-color: yellow;
+	height: 50px;
+	margin-top: 20px;
+
+}
+
+.b3:hover 
+{
+	background-color: black ;
+	color: yellow;
+	transform: rotate(5deg);
+	cursor: pointer;
 }
