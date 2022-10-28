@@ -1,10 +1,27 @@
 h1
 {
 	text-align: center;
-
+	font-family: Impact;
 }
 
 body
 {
 	background-color: #989191;
+	background-image: url("fond3.jpeg");
 }
+
+div
+{
+	border: 2px solid white ;
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 15px 32px;
+}
+
+h2
+{
+	text-align: right; 
+	font-size: 20px;
+}
+
