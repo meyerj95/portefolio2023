@@ -1,0 +1,22 @@
+body
+{
+    background-image: url(mha.jpg);
+    background-size: 100%;
+}
+
+button
+{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border: 2px solid red;
+    border-radius: 26px;
+    color: white;
+
+}
+
+button:hover
+{
+    background-color: yellow;
+    color: black;
+}
