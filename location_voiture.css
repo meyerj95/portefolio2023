@@ -1,0 +1,36 @@
+.titre
+{
+    border: solid 2px black;
+    background-color: white;
+    filter:Alpha(opacity=80);-moz-opacity:0.80;opacity: 0.80;
+    text-align: center;
+}
+
+body
+{
+    background-image: url(mha.jpg);
+    background-size: 100%;
+}
+
+img
+{
+    margin-left: 300px;
+    margin-top: 20px;
+}
+
+button
+{
+    border-radius: 20px;
+    background-color: white;
+    filter:Alpha(opacity=80);-moz-opacity:0.80;opacity: 0.80;
+    margin-top: 20px;
+    width: 150px;
+    margin-left: 25%;
+}
+
+button:hover
+{
+    cursor: pointer;
+    background-color: white;
+
+}
