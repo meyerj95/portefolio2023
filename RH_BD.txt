@@ -1,0 +1,66 @@
+R1 🡺 Afficher les noms, prénoms et les dates de naissance de tous les employés.
+Select…
+
+	
+SELECT `Nom` , `Prenom` , `DateNaissance`
+FROM `rh.employe`
+LIMIT 0 , 30
+
+
+R2 🡺 Afficher toutes les informations concernant les employés Sous-Chef.
+
+SELECT `Fonction`="Sous-Chef"
+FROM `rh.employe`
+
+R3🡺Afficher les noms et prénoms de tous les DSO.
+
+SELECT `Nom` , `Prenom`
+FROM `rh.employe`
+WHERE `NoSrv` = "735"
+LIMIT 0 , 30
+
+R4🡺  Afficher toutes les informations sur les employés masculins.
+
+SELECT `Nom` , `Prenom`
+FROM `rh.employe`
+WHERE `Sexe` = "H"
+LIMIT 0 , 30
+
+R5 🡺 Afficher les noms et prénoms des employés qui habitent à “ORLY”
+
+SELECT `Nom` , `Prenom`
+FROM `rh.employe`
+WHERE `Site` = "Orly"
+LIMIT 0 , 30
+
+R6🡺Afficher tous les employés recrutés en 2009.
+
+SELECT `Nom` , `Prenom`
+FROM `rh.employe`
+WHERE `DateEmbauche`
+BETWEEN '2009/01/01'
+AND '2009/12/31'
+LIMIT 0 , 30
+
+R7🡺 Afficher tous les employés qui sont en CDD
+
+SELECT `Nom` , `Prenom`
+FROM `rh.employe`
+WHERE `TypeContract` = 'CDD'
+LIMIT 0 , 30
+
+R8🡺 Afficher tout les employé qui ont un salaire superieur a 20euro
+
+SELECT `Nom` , `Prenom`
+FROM `rh.employe`
+WHERE `Salaire` >20
+LIMIT 0 , 30
+
+R9 🡺 Afficher tout les employé qui sont néé en 1999
+
+SELECT `Nom` , `Prenom`
+FROM `rh.employe`
+WHERE `DateNaissance`
+BETWEEN '1999/01/01'
+AND '1999/12/31'
+LIMIT 0 , 30
