@@ -6,11 +6,19 @@ body {
 
 }
 
-.vide
+.AOC
 {
-    width: 100px;
-    height: 100px;
+ background-color: antiquewhite;
+ height: 400px;
+}
 
+.blank
+{
+    width: 150px;
+    height: 150px;
+    margin-right: 50px;
+    padding-bottom: 100px;
+    float: right;
 }
 
 
